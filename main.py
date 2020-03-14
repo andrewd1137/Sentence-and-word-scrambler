@@ -2,7 +2,6 @@
 
 import randStr
 
-
 print("randWord Outcomes:")
 print(randStr.randWord("My name is Andrew"))
 print(randStr.randWord("I enjoy coding in Python"))
