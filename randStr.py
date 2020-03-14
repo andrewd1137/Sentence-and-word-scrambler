@@ -26,9 +26,7 @@ def strMixer(str1):
 def randIntForWord(char1):
     if char1 in Int4Word.keys():
         return Int4Word[char1]
-
     else:
         char_int = random.randint(0, 100000)
         Int4Word.update({char1: char_int})
         return Int4Word[char1]
-
