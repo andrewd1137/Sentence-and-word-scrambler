@@ -1,27 +1,21 @@
 #Andrew DeMarco
 
 import randStr
-import random
-# when i add the random seed, every time i run the code
-# it gives the same result. if i don't have it, it gives
-# different results every time.
+
 
 print("randWord Outcomes:")
-print(randStr.randWord("Python is fun"))
-print(randStr.randWord("It's way better than java"))
 print(randStr.randWord("My name is Andrew"))
-random.seed(2)
-print(randStr.randWord("My name is Andrew"))
-random.seed(2)
-print(randStr.randWord("My name is Andrew"))
+print(randStr.randWord("I enjoy coding in Python"))
+print(randStr.randWord("I once went skydiving"))
+print(randStr.randWord("I am studying computer science"))
+print(randStr.randWord("At the University of New Haven"))
 print("\n")
 
 print("strMixer Outcomes: ")
 print(randStr.strMixer("I love to travel"))
 print(randStr.strMixer("I really want to go to"))
 print(randStr.strMixer("Thailand"))
-random.seed(0)
-print(randStr.strMixer("and Australia"))
+print(randStr.strMixer("and I'd also love to visit"))
 print(randStr.strMixer("Australia"))
 print("\n")
 
